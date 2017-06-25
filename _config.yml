@@ -68,4 +68,14 @@ theme: hello
 # Deployment
 ## Docs: https://hexo.io/docs/deployment.html
 deploy:
-  type:
+  type: git
+  repo: git@github.com:rickykurniawanlie/rickykurniawanlie.github.io.git
+  branch: master
+
+# RSS Feed
+feed:
+  type: atom
+  path: atom.xml
+  limit: 20
+  hub:
+  content:
