@@ -1,3 +1,21 @@
+@font-face {
+  font-family: 'Libre Franklin';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Libre Franklin'), local('LibreFranklin-Regular'), url("../fonts/LibreFranklin/LibreFranklin.woff2") format('woff2');
+}
+@font-face {
+  font-family: 'Libre Franklin';
+  font-style: normal;
+  font-weight: 700;
+  src: local('Libre Franklin Bold'), local('LibreFranklin-Bold'), url("../fonts/LibreFranklin/LibreFranklin-Bold.woff2") format('woff2');
+}
+@font-face {
+  font-family: 'Varela Round';
+  font-style: normal;
+  font-weight: 400;
+  src: url("https://fonts.googleapis.com/css?family=Varela Round&subset=latin");
+}
 *,
 :after,
 :before {
@@ -11,8 +29,8 @@ body {
   padding: 0;
   color: #333;
   line-height: 1.5;
-  background: #fff;
-  font-family: PingFang SC, Microsoft YaHei, STHeiti, WenQuanYi Micro Hei, sans-serif;
+  background: #f7f7f7;
+  font-family: 'Varela Round', sans-serif;
   scroll-behavior: smooth;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
@@ -20,18 +38,6 @@ body {
 a {
   color: #333;
   text-decoration: none;
-}
-@font-face {
-  font-family: 'Libre Franklin';
-  font-style: normal;
-  font-weight: 400;
-  src: local('Libre Franklin'), local('LibreFranklin-Regular'), url("../fonts/LibreFranklin/LibreFranklin.woff2") format('woff2');
-}
-@font-face {
-  font-family: 'Libre Franklin';
-  font-style: normal;
-  font-weight: 700;
-  src: local('Libre Franklin Bold'), local('LibreFranklin-Bold'), url("../fonts/LibreFranklin/LibreFranklin-Bold.woff2") format('woff2');
 }
 .clearfix::after,
 .container::after,
@@ -80,11 +86,11 @@ a {
   text-transform: uppercase;
 }
 .header .site-title-link:hover {
-  color: #f75357;
+  color: #410073;
 }
 .header .site-title-link::after {
   content: ".";
-  color: #f75357;
+  color: #410073;
   font-size: 44px;
 }
 .header .site-nav {
@@ -107,7 +113,7 @@ a {
 }
 .header .site-nav .site-nav-link:hover,
 .header .site-nav .site-nav-link.active {
-  color: #f75357;
+  color: #410073;
 }
 .header .site-nav .site-nav-icon {
   float: right;
@@ -118,7 +124,7 @@ a {
   color: #666;
 }
 .header .site-nav .site-nav-icon .site-icon-link:hover {
-  color: #f75357;
+  color: #410073;
 }
 @media (max-width: 768px) {
   .header .site-nav .site-nav-item {
@@ -149,7 +155,7 @@ a {
   color: #888;
 }
 .article .article-meta .article-categories .article-category:hover {
-  color: #f75357;
+  color: #410073;
 }
 .article .article-title {
   display: inline-block;
@@ -168,14 +174,14 @@ a {
   display: inline-block;
   padding: 5px 10px;
   font-size: 14px;
-  color: #f63338;
-  border: 1px solid #f75357;
+  color: #3a0068;
+  border: 1px solid #410073;
   border-radius: 20px;
 }
 .article .article-body .readmore .readmore-link:hover {
   color: #fafafa;
   font-weight: bold;
-  background-color: #f75357;
+  background-color: #410073;
   text-decoration: none;
 }
 .article .article-footer {
@@ -190,7 +196,7 @@ a {
   color: #888;
 }
 .article .article-footer .article-tag:hover {
-  color: #f75357;
+  color: #410073;
 }
 .article .article-footer .article-pagination {
   margin-top: 20px;
@@ -210,11 +216,11 @@ a {
   text-transform: uppercase;
 }
 .article .article-footer .article-pagination .title {
-  color: #f75357;
+  color: #410073;
   font-size: 18px;
 }
 .article .article-footer .article-pagination .title:hover {
-  color: #f52429;
+  color: #370062;
   text-decoration: underline;
 }
 @media (max-width: 768px) {
@@ -222,7 +228,7 @@ a {
     font-size: 18px;
     font-weight: 400;
     text-transform: capitalize;
-    color: #f75357;
+    color: #410073;
   }
   .article .article-footer .article-pagination .title {
     display: none;
@@ -256,14 +262,14 @@ a {
   color: #666;
 }
 .archive .archive-section .archive-list .article-link:hover {
-  color: #f75357;
+  color: #410073;
   text-decoration: underline;
 }
 .markdown a {
-  color: #f63338;
+  color: #3a0068;
 }
 .markdown a:hover {
-  color: #f41419;
+  color: #34005c;
   text-decoration: underline;
 }
 .markdown h1,
@@ -290,14 +296,14 @@ a {
 .markdown h4 .header-anchor:hover,
 .markdown h5 .header-anchor:hover,
 .markdown h6 .header-anchor:hover {
-  color: #f75357;
+  color: #410073;
   text-decoration: none;
 }
 .markdown blockquote {
   margin: 2em 0;
   padding: 10px 20px;
   color: rgba(51,51,51,0.8);
-  border-left: 2px solid #f75357;
+  border-left: 2px solid #410073;
   background: #f6f6f6;
   box-shadow: 1px 1px 2px rgba(0,0,0,0.125);
 }
@@ -313,7 +319,7 @@ a {
   padding: 3px 5px;
   border-radius: 4px;
   font-size: 14px;
-  color: #f41419;
+  color: #34005c;
   background: #f6f6f6;
   word-wrap: break-word;
 }
@@ -413,7 +419,7 @@ a {
   font-size: 20px;
 }
 .paginator .page-number:hover {
-  color: #f75357;
+  color: #410073;
 }
 .paginator .page-number.current {
   font-size: 28px;
@@ -427,10 +433,9 @@ a {
   font-size: 28px;
 }
 .paginator .extend:hover {
-  color: #f75357;
+  color: #410073;
 }
 .widget {
-  background: #fff;
   margin-bottom: 20px;
 }
 .widget .widget-title {
@@ -440,7 +445,7 @@ a {
   display: inline-block;
   font-size: 16px;
   font-weight: 600;
-  font-family: PingFang SC, Microsoft YaHei, STHeiti, sans-serif;
+  font-family: 'Varela Round', sans-serif;
   color: #444;
   text-transform: uppercase;
 }
@@ -449,7 +454,7 @@ a {
   height: 1px;
   width: 100%;
   content: "";
-  border-top: 2px solid #f75357;
+  border-top: 2px solid #410073;
   position: absolute;
   left: 0px;
   bottom: 0px;
@@ -467,7 +472,7 @@ a {
   white-space: nowrap;
 }
 .recent .recent-post-link:hover {
-  color: #f75357;
+  color: #410073;
 }
 .tagcloud .tagcloud-wrapper {
   margin: 0 15px;
@@ -485,7 +490,7 @@ a {
 .tagcloud .tagcloud-wrapper a:active,
 .tagcloud .tagcloud-wrapper a:focus,
 .tagcloud .tagcloud-wrapper a:hover {
-  color: #f75357;
+  color: #410073;
   transform: scale(1.1);
 }
 .categories .category-list {
@@ -499,11 +504,11 @@ a {
   position: relative;
 }
 .categories .category-list-link:hover {
-  color: #f75357;
+  color: #410073;
 }
 .categories .category-list-count {
   font-size: 0.8em;
-  color: #f75357;
+  color: #410073;
   position: absolute;
   top: -3px;
   margin-left: 2px;
@@ -519,11 +524,11 @@ a {
   position: relative;
 }
 .archives .archive-list-link:hover {
-  color: #f75357;
+  color: #410073;
 }
 .archives .archive-list-count {
   font-size: 0.8em;
-  color: #f75357;
+  color: #410073;
   position: absolute;
   top: -3px;
   margin-left: 2px;
@@ -539,7 +544,7 @@ a {
   position: relative;
 }
 .links .link-list-link:hover {
-  color: #f75357;
+  color: #410073;
 }
 @media (max-width: 960px) {
   .widget {
@@ -575,10 +580,10 @@ a {
   margin: 0;
 }
 .footer a {
-  color: #f75357;
+  color: #410073;
 }
 .footer a:hover {
-  color: #f41419;
+  color: #34005c;
 }
 @media (max-width: 970px) {
   .footer {
