@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<svg viewBox="0 0 500 500" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <pattern id="pattern-0" x="0" y="0" width="20" height="20" patternUnits="userSpaceOnUse" viewBox="0 0 100 100">
+      <path d="M 0 0 L 50 0 L 50 100 L 0 100 Z" style="fill: black;"/>
+    </pattern>
+  </defs>
+  <ellipse transform="matrix(1.000008, 0, 0, 1.000025, -62.390569, 109.439735)" style="fill: rgb(216, 216, 216);" cx="235.99" cy="86.55" rx="1.797" ry="0.299"/>
+  <path d="M 494.045 248.536 C 494.045 383.831 384.5 493.51 249.37 493.51 C 114.24 493.51 4.695 383.831 4.695 248.536 C 4.695 113.241 114.24 3.562 249.37 3.562 C 384.5 3.562 494.045 113.241 494.045 248.536 Z" style="fill: rgba(216, 216, 216, 0); stroke: rgb(65, 0, 115); stroke-width: 10;"/>
+  
+  <path d="M 213.732 313.687 Z" style="stroke: black; fill: none;"/>
+  <path d="M 98.149 311.312 L 93.836 101.099 L 237.345 156.184 L 70.31 225.85 L 242.833 304.021" style="fill: none; stroke-width: 10; stroke: rgb(65, 0, 115);"/>
+  
+  <path d="M 305.473 104.816 L 311.843 321.93" style="fill: none; stroke-width: 10; stroke: rgb(65, 0, 115);"/>
+  <path d="M 447.74 156.837 L 282.648 227.97 L 447.739 304.943" style="fill: none; stroke: rgb(65, 0, 115); stroke-width: 10;"/>
+
+  <path d="M 135.604 422.789 L 120.209 423.32 L 120.209 435.529 L 135.604 435.529 L 135.604 422.789 Z" style="fill: none; stroke: rgb(65, 0, 115); stroke-width: 5;"/>
+  
+  <path d="M 134.011 433.937 Z" style="fill: none; stroke: rgb(65, 0, 115);"/>
+  <path d="M 155.245 437.122 L 155.776 375.013 L 207.267 405.802 L 147.813 433.406" style="fill: none; stroke: rgb(65, 0, 115); stroke-width: 5;"/>
+  <path d="M 263.536 382.445 L 220.538 404.21 L 252.389 414.826 L 227.439 429.159 L 265.129 439.776" style="fill: none; stroke: rgb(65, 0, 115); stroke-width: 5;"/>
+  <path d="M 287.424 380.853 L 309.72 432.344 L 333.608 381.914" style="fill: none; stroke: rgb(65, 0, 115); stroke-width: 5;"/>
+  
+</svg>
